@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_weight="1"
+
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#000000"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#B3B1B1"
+                android:drawableRight="@mipmap/personne"
+                android:ems="10"
+                android:hint="nom d'utilisateur"
+                android:inputType="textPersonName"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B3B1B1"
+                android:drawableRight="@mipmap/cadenas"
+                android:ems="10"
+                android:hapticFeedbackEnabled="false"
+                android:hint="mot de passe"
+                android:inputType="textPassword"
+                android:textColor="#000000" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <Button
+                android:id="@+id/valider"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#000000"
+                android:gravity="center"
+
+                android:text="Valider"
+
+                android:textColor="#ffffff" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="33dp" />
+
+            <TextView
+                android:id="@+id/pwdoublier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mot de passe oublier ?  Cliquez ici"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

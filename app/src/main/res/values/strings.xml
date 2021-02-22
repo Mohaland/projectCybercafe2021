@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cybercafe</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Parametre</string>
+
+
+    <string name="listp">LISTE DU PERSONNEL</string>
+    <string name="nom">Nom : </string>
+    <string name="prenom">Prénom : </string>
+    <string name="login">Login : </string>
+    <string name="mdp">Mot de passe : </string>
+</resources>
